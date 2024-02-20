@@ -1,4 +1,5 @@
 def twoSum(list1, target):
+  list1.sort()
   left= 0
   right=len(list1)-1
   while left <right:
